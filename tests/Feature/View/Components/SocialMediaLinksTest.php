@@ -81,7 +81,7 @@ it('can render the links component with icons', function (string $platform, stri
         ->andReturn(null);
 
     $this->component(Links::class, [
-        'showIcon' => true
+        'showIcon' => true,
     ])
         ->assertSee($url)
         ->assertSee($icon);
