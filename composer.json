@@ -1,15 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "codedor/filament-social-media-links",
+    "description": "Package to manage social media links in Flament and display them in your front-end",
     "keywords": [
-        ":vendor_name",
+        "codedor",
         "laravel",
-        ":package_slug"
+        "filament-social-media-links"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/codedor/filament-social-media-links",
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "codedor/filament-media-library": "^0.1.1",
+        "codedor/filament-settings": "^0.1.0",
         "illuminate/contracts": "^10.0",
         "spatie/laravel-package-tools": "^1.12"
     },
@@ -26,19 +28,19 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Codedor\\SocialMediaLinks\\": "src",
+            "Codedor\\SocialMediaLinks\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Codedor\\SocialMediaLinks\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\Providers\\SkeletonServiceProvider"
+                "Codedor\\SocialMediaLinks\\Providers\\SocialMediaLinksServiceProvider"
             ]
         }
     },
