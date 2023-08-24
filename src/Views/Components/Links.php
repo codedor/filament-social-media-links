@@ -23,7 +23,7 @@ class Links extends Component
                 return [
                     $platform => [
                         'url' => $url,
-                        'icon' => config("filament-social-media-links.platforms.{$platform}", ''),
+                        'icon' => config("filament-social-media-links.platforms.{$platform}"),
                     ],
                 ];
             });

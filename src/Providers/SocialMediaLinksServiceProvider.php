@@ -17,7 +17,7 @@ class SocialMediaLinksServiceProvider extends PackageServiceProvider
             ->setBasePath(__DIR__ . '/../')
             ->hasConfigFile()
             ->hasViewComponents(
-                'social-media',
+                'filament-social-media-links::',
                 Links::class,
                 Link::class,
             )

@@ -45,7 +45,7 @@ php artisan vendor:publish --tag="filament-social-media-links-views"
 ## Usage
 
 ```php
-<x-social-media-buttons-links />
+<x-filament-social-media-links::links />
 ```
 
 ## Documentation
