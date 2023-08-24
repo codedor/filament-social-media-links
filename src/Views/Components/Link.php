@@ -13,7 +13,8 @@ class Link extends Component
         public bool $showIcon = false,
         public ?string $href = null,
         public ?string $iconClass = null,
-    ) {}
+    ) {
+    }
 
     public function render(): ?View
     {

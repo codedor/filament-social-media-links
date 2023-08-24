@@ -4,10 +4,10 @@ namespace Codedor\SocialMediaLinks\Tests;
 
 use Codedor\FilamentSettings\Providers\SettingsServiceProvider;
 use Codedor\MediaLibrary\Providers\MediaLibraryServiceProvider;
+use Codedor\SocialMediaLinks\Providers\SocialMediaLinksServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Codedor\SocialMediaLinks\Providers\SocialMediaLinksServiceProvider;
 
 class TestCase extends Orchestra
 {

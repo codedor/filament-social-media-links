@@ -2,7 +2,6 @@
 
 namespace Codedor\SocialMediaLinks\Providers;
 
-use Closure;
 use Codedor\SocialMediaLinks\Views\Components\Link;
 use Codedor\SocialMediaLinks\Views\Components\Links;
 use Spatie\LaravelPackageTools\Package;
