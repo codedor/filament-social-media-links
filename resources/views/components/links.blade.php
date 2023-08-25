@@ -1,8 +1,10 @@
 <ul
-    @class([
-        'social-media__list',
-        'list-unstyled' => setting('filament-social-media-links.facebook'),
-    ])
+    {{
+        $attributes->class([
+            'social-media__list',
+            'list-unstyled' => setting('filament-social-media-links.facebook'),
+        ])
+    }}
 >
     @foreach ($platforms as $platform => $data)
         <x-filament-social-media-links::link

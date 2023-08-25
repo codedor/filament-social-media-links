@@ -1,4 +1,10 @@
-<li class="social-media__element">
+<li
+    {{
+        $attributes->class([
+            'social-media__element',
+        ])
+    }}
+>
     <a class="social-media__link"
        target="_blank"
        rel="noopener noreferrer"
