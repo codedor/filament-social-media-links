@@ -1,6 +1,6 @@
 <?php
 
-// config for Codedor/Links
+// config for Codedor/Overview
 return [
     'platforms' => [
         'facebook' => 'fab fa-facebook',

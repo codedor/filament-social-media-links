@@ -1,9 +1,5 @@
 <li
-    {{
-        $attributes->class([
-            'social-media__element',
-        ])
-    }}
+    {{ $attributes->merge(['class' => 'social-media__element']) }}
 >
     <a class="social-media__link"
        target="_blank"

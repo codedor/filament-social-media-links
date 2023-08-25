@@ -7,7 +7,7 @@ use Illuminate\Contracts\View\View;
 use Illuminate\Support\Collection;
 use Illuminate\View\Component;
 
-class Links extends Component
+class Overview extends Component
 {
     public function __construct(
         public bool $showIcon = false
@@ -46,6 +46,6 @@ class Links extends Component
 
     public function render(): View
     {
-        return $this->view('filament-social-media-links::components.links');
+        return $this->view('filament-social-media-links::components.overview');
     }
 }

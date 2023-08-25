@@ -45,5 +45,11 @@ php artisan vendor:publish --tag="filament-social-media-links-views"
 ## Rendering in front-end
 
 ```blade
-<x-filament-social-media-links::overview />
+<x-social-media-links::overview />
+```
+
+If you want to render with icons only, pass the `show-icon` attribute.
+
+```blade
+<x-social-media-links::overview show-icon />
 ```

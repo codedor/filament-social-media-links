@@ -7,7 +7,7 @@
     }}
 >
     @foreach ($platforms as $platform => $data)
-        <x-filament-social-media-links::link
+        <x-social-media-links::item
             :label="$platform"
             category="Social"
             :href="$data['url']"

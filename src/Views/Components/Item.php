@@ -5,7 +5,7 @@ namespace Codedor\SocialMediaLinks\Views\Components;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class Link extends Component
+class Item extends Component
 {
     public function __construct(
         public string $label,
@@ -22,6 +22,6 @@ class Link extends Component
             return null;
         }
 
-        return $this->view('filament-social-media-links::components.link');
+        return $this->view('filament-social-media-links::components.item');
     }
 }
