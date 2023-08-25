@@ -3,8 +3,6 @@
 namespace Codedor\SocialMediaLinks\Providers;
 
 use Codedor\FilamentSettings\Repositories\SettingTabRepository;
-use Codedor\MediaLibrary\Views\Picture;
-use Codedor\MediaLibrary\Views\Placeholder;
 use Codedor\SocialMediaLinks\Settings\LogoStructuredData;
 use Codedor\SocialMediaLinks\Settings\SocialMediaLinks;
 use Codedor\SocialMediaLinks\Views\Components\Link;

@@ -80,9 +80,7 @@ it('can render the links component with icons', function (string $platform, stri
         ->with('site.name', null)
         ->andReturn(null);
 
-    $this->component(Links::class, [
-        'showIcon' => true,
-    ])
+    $this->blade('<x-filament-social-media-links::overview show-icon />')
         ->assertSee($url)
         ->assertSee($icon);
 })->with('platforms');

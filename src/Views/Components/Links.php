@@ -5,7 +5,7 @@ namespace Codedor\SocialMediaLinks\Views\Components;
 use Codedor\MediaLibrary\Models\Attachment;
 use Illuminate\Support\Collection;
 use Illuminate\View\Component;
-use Illuminate\View\View;
+use Illuminate\Contracts\View\View;
 
 class Links extends Component
 {
@@ -44,11 +44,8 @@ class Links extends Component
         ]);
     }
 
-    public function render()
+    public function render(): View
     {
-        return $this->view('filament-social-media-links::components.links', [
-            'platforms' => $this->platforms(),
-            'structuredData' => $this->structuredData(),
-        ]);
+        return $this->view('filament-social-media-links::components.links');
     }
 }

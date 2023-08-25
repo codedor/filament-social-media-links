@@ -3,7 +3,7 @@
 namespace Codedor\SocialMediaLinks\Views\Components;
 
 use Illuminate\View\Component;
-use Illuminate\View\View;
+use Illuminate\Contracts\View\View;
 
 class Link extends Component
 {
@@ -16,7 +16,7 @@ class Link extends Component
     ) {
     }
 
-    public function render()
+    public function render(): ?View
     {
         if (! $this->href) {
             return null;

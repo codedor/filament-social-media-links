@@ -11,8 +11,12 @@
     "require": {
         "php": "^8.2",
         "codedor/filament-media-library": "^0.1.1",
-        "codedor/filament-settings": "^0.1.0",
+        "codedor/filament-settings": "^0.1.1",
+        "codedor/laravel-locale-collection": "^0.0",
+        "filament/forms": "^3.0",
         "illuminate/contracts": "^10.0",
+        "illuminate/support": "^10.0",
+        "illuminate/view": "^10.0",
         "spatie/laravel-package-tools": "^1.12"
     },
     "require-dev": {
