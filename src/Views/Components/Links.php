@@ -5,7 +5,6 @@ namespace Codedor\SocialMediaLinks\Views\Components;
 use Codedor\MediaLibrary\Models\Attachment;
 use Illuminate\Support\Collection;
 use Illuminate\View\Component;
-use Illuminate\View\View;
 
 class Links extends Component
 {

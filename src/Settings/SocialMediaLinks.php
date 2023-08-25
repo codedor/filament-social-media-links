@@ -2,7 +2,6 @@
 
 namespace Codedor\SocialMediaLinks\Settings;
 
-use Codedor\FilamentSettings\Rules\SettingMustBeFilledIn;
 use Codedor\FilamentSettings\Settings\SettingsInterface;
 use Filament\Forms\Components\TextInput;
 

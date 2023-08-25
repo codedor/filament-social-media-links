@@ -3,7 +3,6 @@
 namespace Codedor\SocialMediaLinks\Views\Components;
 
 use Illuminate\View\Component;
-use Illuminate\View\View;
 
 class Link extends Component
 {
