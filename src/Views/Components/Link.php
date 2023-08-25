@@ -16,12 +16,12 @@ class Link extends Component
     ) {
     }
 
-    public function render(): ?View
+    public function render()
     {
         if (! $this->href) {
             return null;
         }
 
-        return view('filament-social-media-links::components.link');
+        return $this->view('filament-social-media-links::components.link');
     }
 }

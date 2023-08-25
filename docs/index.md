@@ -45,5 +45,5 @@ php artisan vendor:publish --tag="filament-social-media-links-views"
 ## Rendering in front-end
 
 ```blade
-<x-filament-social-media-links::links />
+<x-filament-social-media-links::overview />
 ```

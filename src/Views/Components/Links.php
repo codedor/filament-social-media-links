@@ -44,8 +44,11 @@ class Links extends Component
         ]);
     }
 
-    public function render(): View
+    public function render()
     {
-        return view('filament-social-media-links::components.links');
+        return $this->view('filament-social-media-links::components.links', [
+            'platforms' => $this->platforms(),
+            'structuredData' => $this->structuredData(),
+        ]);
     }
 }
