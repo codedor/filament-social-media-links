@@ -10,7 +10,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "codedor/filament-media-library": "^0.2",
+        "codedor/filament-media-library": "^0.3",
         "codedor/filament-settings": "^0.1.1",
         "codedor/laravel-locale-collection": "^0.0",
         "filament/forms": "^3.0",
