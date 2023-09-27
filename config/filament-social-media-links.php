@@ -15,4 +15,7 @@ return [
         'skype' => 'fab fa-skype',
         'tiktok' => 'fab fa-tiktok',
     ],
+    'formatter-formats' => [
+
+    ],
 ];
