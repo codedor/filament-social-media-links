@@ -3,10 +3,10 @@
 // config for Codedor/Overview
 return [
     'platforms' => [
-        'facebook' => 'fab fa-facebook',
+        'facebook' => 'fab fa-facebook-f',
         'instagram' => 'fab fa-instagram',
-        'twitter' => 'fab fa-twitter',
-        'linkedIn' => 'fab fa-linkedin',
+        'x' => 'fab fa-x-twitter',
+        'linkedIn' => 'fab fa-linkedin-in',
         'pinterest' => 'fab fa-pinterest',
         'youtube' => 'fab fa-youtube',
         'vimeo' => 'fab fa-vimeo',
