@@ -10,7 +10,8 @@
        href="{{ $href }}"
     >
         @if ($showIcon)
-            <i class="{{ $iconClass }}"></i>
+            <i aria-hidden="true" class="{{ $iconClass }}"></i>
+            <span class="visually-hidden">{{ $label }}</span>
         @else
             {{ $label }}
         @endif
