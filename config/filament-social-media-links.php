@@ -11,7 +11,6 @@ return [
         'youtube' => 'fab fa-youtube',
         'vimeo' => 'fab fa-vimeo',
         'github' => 'fab fa-github',
-        'tripAdvisor' => 'fab fa-tripadvisor',
         'skype' => 'fab fa-skype',
         'tiktok' => 'fab fa-tiktok',
     ],
