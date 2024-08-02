@@ -86,7 +86,7 @@ it('can render the links component with icons', function (string $platform, stri
 })->with('platforms');
 
 it('can create structured data', function () {
-    $component = new Overview();
+    $component = new Overview;
 
     expect($component->structuredData())
         ->toBeJson(json_encode([
@@ -99,7 +99,7 @@ it('can create structured data', function () {
 });
 
 it('can create platforms when no social platforms are set', function () {
-    $component = new Overview();
+    $component = new Overview;
 
     expect($component->platforms())
         ->toHaveCount(0);
@@ -115,7 +115,7 @@ it('can create platforms', function (string $platform, string $url, string $icon
         ->with("filament-social-media-links.{$platform}", null)
         ->andReturn($url);
 
-    $component = new Overview();
+    $component = new Overview;
 
     expect($component->platforms()->toArray())
         ->toEqual([
