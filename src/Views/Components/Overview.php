@@ -11,8 +11,7 @@ class Overview extends Component
 {
     public function __construct(
         public bool $showIcon = false
-    ) {
-    }
+    ) {}
 
     public function platforms(): Collection
     {
