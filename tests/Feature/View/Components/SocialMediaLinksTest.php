@@ -8,17 +8,17 @@ it('can render the links component when no social platforms are set', function (
 
     Setting::shouldReceive('get')
         ->once()
-        ->with('filament-social-media-links.facebook', null)
+        ->with('filament-social-media-links.facebook', null, true)
         ->andReturn(null);
 
     Setting::shouldReceive('get')
         ->once()
-        ->with('filament-social-media-links.image_structured_data_en_id', null)
+        ->with('filament-social-media-links.image_structured_data_en_id', null, true)
         ->andReturn(null);
 
     Setting::shouldReceive('get')
         ->once()
-        ->with('site.name', null)
+        ->with('site.name', null, true)
         ->andReturn(null);
 
     $this->component(Overview::class)
@@ -32,22 +32,22 @@ it('can render the links component', function (string $platform, string $url, st
 
     Setting::shouldReceive('get')
         ->twice()
-        ->with("filament-social-media-links.{$platform}", null)
+        ->with("filament-social-media-links.{$platform}", null, true)
         ->andReturn($url);
 
     Setting::shouldReceive('get')
         ->once()
-        ->with('filament-social-media-links.facebook', null)
+        ->with('filament-social-media-links.facebook', null, true)
         ->andReturn($platform === 'facebook' ? $url : null);
 
     Setting::shouldReceive('get')
         ->once()
-        ->with('filament-social-media-links.image_structured_data_en_id', null)
+        ->with('filament-social-media-links.image_structured_data_en_id', null, true)
         ->andReturn(null);
 
     Setting::shouldReceive('get')
         ->once()
-        ->with('site.name', null)
+        ->with('site.name', null, true)
         ->andReturn(null);
 
     $this->component(Overview::class)
@@ -62,22 +62,22 @@ it('can render the links component with icons', function (string $platform, stri
 
     Setting::shouldReceive('get')
         ->twice()
-        ->with("filament-social-media-links.{$platform}", null)
+        ->with("filament-social-media-links.{$platform}", null, true)
         ->andReturn($url);
 
     Setting::shouldReceive('get')
         ->once()
-        ->with('filament-social-media-links.facebook', null)
+        ->with('filament-social-media-links.facebook', null, true)
         ->andReturn($platform === 'facebook' ? $url : null);
 
     Setting::shouldReceive('get')
         ->once()
-        ->with('filament-social-media-links.image_structured_data_en_id', null)
+        ->with('filament-social-media-links.image_structured_data_en_id', null, true)
         ->andReturn(null);
 
     Setting::shouldReceive('get')
         ->once()
-        ->with('site.name', null)
+        ->with('site.name', null, true)
         ->andReturn(null);
 
     $this->blade('<x-social-media-links::overview show-icon />')
@@ -112,7 +112,7 @@ it('can create platforms', function (string $platform, string $url, string $icon
 
     Setting::shouldReceive('get')
         ->twice()
-        ->with("filament-social-media-links.{$platform}", null)
+        ->with("filament-social-media-links.{$platform}", null, true)
         ->andReturn($url);
 
     $component = new Overview;

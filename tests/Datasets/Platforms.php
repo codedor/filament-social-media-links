@@ -12,4 +12,5 @@ dataset('platforms', [
     ['tripAdvisor', 'https://tripadvisor.com', 'fab fa-tripadvisor'],
     ['skype', 'https://skype.com', 'fab fa-skype'],
     ['tiktok', 'https://tiktok.com', 'fab fa-tiktok'],
+    ['bluesky', 'https://bluesky.com', 'fab fa-bluesky'],
 ]);

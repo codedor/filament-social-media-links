@@ -6,6 +6,7 @@ return [
         'facebook' => 'fab fa-facebook-f',
         'instagram' => 'fab fa-instagram',
         'x' => 'fab fa-x-twitter',
+        'bluesky' => 'fab fa-bluesky',
         'linkedIn' => 'fab fa-linkedin-in',
         'pinterest' => 'fab fa-pinterest',
         'youtube' => 'fab fa-youtube',
