@@ -15,7 +15,7 @@ class LogoStructuredData implements SettingsInterface
             fn (Locale $locale) => AttachmentInput::make('filament-social-media-links.image_structured_data_' . $locale->locale() . '_id')
                 ->label('Structured data image for ' . $locale->locale())
                 ->label(__('filament-social-media-links::settings.logo structured data image :locale', [
-                    'locale' => $locale->locale()
+                    'locale' => $locale->locale(),
                 ]))
                 ->allowedFormats(config('filament-social-media-links.formatter-formats', []))
         )
