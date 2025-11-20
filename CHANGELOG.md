@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.5.0 - 2025-11-20
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 2.3.0 to 2.4.0 by @dependabot[bot] in https://github.com/codedor/filament-social-media-links/pull/19
+* Bump aglipanci/laravel-pint-action from 2.5 to 2.6 by @dependabot[bot] in https://github.com/codedor/filament-social-media-links/pull/22
+* Bump stefanzweifel/git-auto-commit-action from 5 to 7 by @dependabot[bot] in https://github.com/codedor/filament-social-media-links/pull/24
+* Bump actions/checkout from 4 to 5 by @dependabot[bot] in https://github.com/codedor/filament-social-media-links/pull/23
+* Translate Setting tab labels by @jyrkidn in https://github.com/codedor/filament-social-media-links/pull/18
+
+**Full Changelog**: https://github.com/codedor/filament-social-media-links/compare/v1.4.0...v1.5.0
+
 ## v1.4.0 - 2025-02-28
 
 ### What's Changed
