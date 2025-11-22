@@ -21,6 +21,7 @@ class SocialMediaLinksServiceProvider extends PackageServiceProvider
             ->name($this->packageName())
             ->setBasePath(__DIR__ . '/../')
             ->hasConfigFile()
+            ->hasTranslations()
             ->hasViews();
     }
 
