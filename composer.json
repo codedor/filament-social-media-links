@@ -10,17 +10,16 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "codedor/filament-media-library": "dev-feature/filament-v4",
-        "codedor/filament-settings": "dev-feature/filament-v4",
+        "codedor/filament-media-library": "dev-feature/filament-v5",
+        "codedor/filament-settings": "dev-feature/filament-v5",
         "codedor/laravel-locale-collection": "^1.2",
-        "filament/forms": "^4.0",
+        "filament/forms": "^4.0|^5.0",
         "illuminate/contracts": "^10.0|^11.0|^12.0",
         "illuminate/support": "^10.0|^11.0|^12.0",
         "illuminate/view": "^10.0|^11.0|^12.0",
         "spatie/laravel-package-tools": "^1.16"
     },
     "require-dev": {
-        "filament/upgrade": "^4.0",
         "larastan/larastan": "^2.0|^3.0",
         "laravel/pint": "^1.0",
         "nunomaduro/collision": "^7.0|^8.0",
