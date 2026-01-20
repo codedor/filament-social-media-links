@@ -1,10 +1,10 @@
 <?php
 
-namespace Codedor\SocialMediaLinks\Settings;
+namespace Wotz\SocialMediaLinks\Settings;
 
-use Codedor\FilamentSettings\Settings\SettingsInterface;
 use Filament\Forms\Components\TextInput;
 use Illuminate\Support\Str;
+use Wotz\FilamentSettings\Settings\SettingsInterface;
 
 class SocialMediaLinks implements SettingsInterface
 {
