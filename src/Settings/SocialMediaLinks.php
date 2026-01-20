@@ -2,9 +2,9 @@
 
 namespace Wotz\SocialMediaLinks\Settings;
 
-use Wotz\FilamentSettings\Settings\SettingsInterface;
 use Filament\Forms\Components\TextInput;
 use Illuminate\Support\Str;
+use Wotz\FilamentSettings\Settings\SettingsInterface;
 
 class SocialMediaLinks implements SettingsInterface
 {

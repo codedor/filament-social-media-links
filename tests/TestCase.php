@@ -2,12 +2,12 @@
 
 namespace Wotz\SocialMediaLinks\Tests;
 
-use Wotz\FilamentSettings\Providers\SettingsServiceProvider;
-use Wotz\MediaLibrary\Providers\MediaLibraryServiceProvider;
-use Wotz\SocialMediaLinks\Providers\SocialMediaLinksServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
+use Wotz\FilamentSettings\Providers\SettingsServiceProvider;
+use Wotz\MediaLibrary\Providers\MediaLibraryServiceProvider;
+use Wotz\SocialMediaLinks\Providers\SocialMediaLinksServiceProvider;
 
 class TestCase extends Orchestra
 {

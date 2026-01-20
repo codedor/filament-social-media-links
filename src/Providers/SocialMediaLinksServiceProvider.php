@@ -2,14 +2,14 @@
 
 namespace Wotz\SocialMediaLinks\Providers;
 
+use Illuminate\Support\Facades\Blade;
+use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 use Wotz\FilamentSettings\Repositories\SettingTabRepository;
 use Wotz\SocialMediaLinks\Settings\LogoStructuredData;
 use Wotz\SocialMediaLinks\Settings\SocialMediaLinks;
 use Wotz\SocialMediaLinks\Views\Components\Item;
 use Wotz\SocialMediaLinks\Views\Components\Overview;
-use Illuminate\Support\Facades\Blade;
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class SocialMediaLinksServiceProvider extends PackageServiceProvider
 {
