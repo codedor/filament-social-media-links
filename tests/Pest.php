@@ -1,6 +1,6 @@
 <?php
 
-use Codedor\SocialMediaLinks\Tests\TestCase;
+use Wotz\SocialMediaLinks\Tests\TestCase;
 use Illuminate\Foundation\Testing\Concerns\InteractsWithViews;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 

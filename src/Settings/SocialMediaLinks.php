@@ -1,8 +1,8 @@
 <?php
 
-namespace Codedor\SocialMediaLinks\Settings;
+namespace Wotz\SocialMediaLinks\Settings;
 
-use Codedor\FilamentSettings\Settings\SettingsInterface;
+use Wotz\FilamentSettings\Settings\SettingsInterface;
 use Filament\Forms\Components\TextInput;
 use Illuminate\Support\Str;
 

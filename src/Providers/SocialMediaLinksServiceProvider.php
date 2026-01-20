@@ -1,12 +1,12 @@
 <?php
 
-namespace Codedor\SocialMediaLinks\Providers;
+namespace Wotz\SocialMediaLinks\Providers;
 
-use Codedor\FilamentSettings\Repositories\SettingTabRepository;
-use Codedor\SocialMediaLinks\Settings\LogoStructuredData;
-use Codedor\SocialMediaLinks\Settings\SocialMediaLinks;
-use Codedor\SocialMediaLinks\Views\Components\Item;
-use Codedor\SocialMediaLinks\Views\Components\Overview;
+use Wotz\FilamentSettings\Repositories\SettingTabRepository;
+use Wotz\SocialMediaLinks\Settings\LogoStructuredData;
+use Wotz\SocialMediaLinks\Settings\SocialMediaLinks;
+use Wotz\SocialMediaLinks\Views\Components\Item;
+use Wotz\SocialMediaLinks\Views\Components\Overview;
 use Illuminate\Support\Facades\Blade;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
