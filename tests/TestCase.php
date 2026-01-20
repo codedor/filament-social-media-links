@@ -1,13 +1,13 @@
 <?php
 
-namespace Codedor\SocialMediaLinks\Tests;
+namespace Wotz\SocialMediaLinks\Tests;
 
-use Codedor\FilamentSettings\Providers\SettingsServiceProvider;
-use Codedor\MediaLibrary\Providers\MediaLibraryServiceProvider;
-use Codedor\SocialMediaLinks\Providers\SocialMediaLinksServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
+use Wotz\FilamentSettings\Providers\SettingsServiceProvider;
+use Wotz\MediaLibrary\Providers\MediaLibraryServiceProvider;
+use Wotz\SocialMediaLinks\Providers\SocialMediaLinksServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -16,7 +16,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Codedor\\Overview\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
+            fn (string $modelName) => 'Wotz\\SocialMediaLinks\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
         );
     }
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace Codedor\SocialMediaLinks\Settings;
+namespace Wotz\SocialMediaLinks\Settings;
 
-use Codedor\FilamentSettings\Settings\SettingsInterface;
-use Codedor\LocaleCollection\Facades\LocaleCollection;
-use Codedor\LocaleCollection\Locale;
-use Codedor\MediaLibrary\Filament\AttachmentInput;
+use Wotz\FilamentSettings\Settings\SettingsInterface;
+use Wotz\LocaleCollection\Facades\LocaleCollection;
+use Wotz\LocaleCollection\Locale;
+use Wotz\MediaLibrary\Filament\AttachmentInput;
 
 class LogoStructuredData implements SettingsInterface
 {

@@ -1,7 +1,7 @@
 <?php
 
-use Codedor\FilamentSettings\Facades\Setting;
-use Codedor\SocialMediaLinks\Views\Components\Overview;
+use Wotz\FilamentSettings\Facades\Setting;
+use Wotz\SocialMediaLinks\Views\Components\Overview;
 
 it('can render the links component when no social platforms are set', function () {
     config(['filament-social-media-links.platforms' => []]);

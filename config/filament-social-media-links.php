@@ -1,6 +1,6 @@
 <?php
 
-// config for Codedor/Overview
+// config for Wotz/SocialMediaLinks
 return [
     'platforms' => [
         'facebook' => 'fab fa-facebook-f',

@@ -1,6 +1,6 @@
 <?php
 
-namespace Codedor\SocialMediaLinks\Views\Components;
+namespace Wotz\SocialMediaLinks\Views\Components;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;

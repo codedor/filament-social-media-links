@@ -1,13 +1,13 @@
 # Manage social media links in Flament
 
-Package to manage social media links using our [Settings](https://github.com/codedor/filament-settings) package and display them in the front-end using blade components.
+Package to manage social media links using our [Settings](https://github.com/wotzebra/filament-settings) package and display them in the front-end using blade components.
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require codedor/filament-social-media-links
+composer require wotz/filament-social-media-links
 ```
 
 You can publish the config file with:
@@ -72,7 +72,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security Vulnerabilities
 
-If you discover any security-related issues, please email info@codedor.be instead of using the issue tracker.
+If you discover any security-related issues, please email info@whoownsthezebra.be instead of using the issue tracker.
 
 ## License
 
